@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Voces&display=swap');
+.bio, .text, .curios, .list, .ranking, .list2, .music, .video, .legenda, .redes, .galeria{
+	background-image: url(../img/fundo2.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.bio, .curios, .ranking, .redes, .galeria{
+	border-right-width: 5px;
+	border-right-color: #00ffee;
+	border-right-style: solid;
+	border-left-width: 5px;
+	border-left-color: #00ffee;
+	border-left-style: solid;
+}
+.nome{
+	color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin: 100px;
+    margin-bottom: 0px;
+}
+.nome2{
+   color: #c0c0c0;
+    font-size: 230px;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    margin: 100px; 
+    margin-top: 0px;
+}
+.bio{
+	color: #ffffff;
+    font-size: 90px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    text-overflow: hidden;
+}
+.text{
+	color: #ffffff;
+    font-size: 20px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    text-overflow: hidden;
+    margin-right:170px;
+    margin-left: 170px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.curios{
+	text-indent: 50px;
+	color: #ffffff;
+    font-size: 85px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    text-overflow: hidden;
+}
+.list{
+	list-style-type: none;
+	color: #ffffff;
+    font-size: 20px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    margin-right:150px;
+    margin-left: 150px;
+}
+.ranking{
+	color: #ffffff;
+    font-size: 85px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+}
+.list2{
+	list-style-type: none;
+	color: #ffffff;
+    font-size: 40px;
+    font-family: 'Codystar', cursive;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+}
+.video{
+	border-style: solid;
+	border-width: 8px;
+	border-color: white;
+}
+.legenda{
+	color: #00ffee;
+    font-size: 25px;
+    font-family: 'Codystar', cursive;
+    font-style: normal;
+    font-weight: 100;
+}
+.redes{
+	color: #ffffff;
+    font-size: 70px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.rs{
+	color: #ffff00;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+	font-family: 'Milonga', cursive;
+}
+.galeria{
+	color: #ffffff;
+    font-size: 70px;
+    font-family: 'Voces', cursive;
+    font-style: normal;
+    font-weight: 100;
+	border-right-width: 5px;
+}
